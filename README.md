@@ -156,29 +156,12 @@ This project reflects real-world responsibilities commonly found in **Canadian C
 ### Installation
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/myouseef/opor-patient-record-demo.git
 cd opor-patient-record-demo
 pip install -r requirements.txt
 python app.py
 ```
 
-Project Structure:
-opor-patient-record-demo/
-├── app.py
-├── requirements.txt
-├── README.md
-├── src/
-│   ├── patient_identity.py
-│   ├── unified_record.py
-│   └── data_generator.py
-├── data/
-│   ├── patients.json
-│   └── clinical_records.json
-├── static/
-│   ├── css/style.css
-│   └── js/app.js
-└── templates/
-    └── index.html
 
 
 

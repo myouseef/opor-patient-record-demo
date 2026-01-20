@@ -128,6 +128,25 @@ This project reflects real-world responsibilities commonly found in **Canadian C
 
 ---
 
+### 📁 Project Structure
+
+![Project Structure](screenshots/Project-Structure.png)
+
+**Organized File Hierarchy:**
+- Clear separation of concerns (backend, frontend, data)
+- Modular architecture with dedicated directories
+- Professional project organization
+- Easy to navigate and maintain
+
+**Key Directories:**
+- `src/` - Backend Python modules (patient identity, unified records, data generator)
+- `static/` - Frontend assets (CSS, JavaScript)
+- `templates/` - HTML templates
+- `data/` - JSON data storage
+- `screenshots/` - Project screenshots for documentation
+
+---
+
 ## �🚀 Getting Started
 
 ### Prerequisites

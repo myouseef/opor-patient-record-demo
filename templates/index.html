@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPOR Patient Record Demo - Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">🏥</div>
+                    <div>
+                        <h1 class="logo-title">OPOR Patient Records</h1>
+                        <p class="logo-subtitle">One Person, One Record</p>
+                    </div>
+                </div>
+                <div class="header-stats" id="headerStats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalPatients">0</div>
+                        <div class="stat-label">Total Patients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalRecords">0</div>
+                        <div class="stat-label">Clinical Records</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="uniqueCards">0</div>
+                        <div class="stat-label">Unique Health Cards</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-header">
+                    <h2>Patient Search</h2>
+                    <button class="btn btn-primary" id="generateDataBtn">
+                        <span class="btn-icon">✨</span>
+                        Generate Sample Data
+                    </button>
+                </div>
+                
+                <div class="search-box">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        class="search-input" 
+                        placeholder="Search by name or health card number..."
+                    >
+                    <button class="search-btn" id="searchBtn">
+                        <span>🔍</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <div class="results-header">
+                    <h3 id="resultsTitle">All Patients</h3>
+                    <span class="results-count" id="resultsCount">0 patients</span>
+                </div>
+                
+                <div class="patients-grid" id="patientsGrid">
+                    <!-- Patient cards will be inserted here -->
+                </div>
+
+                <div class="empty-state" id="emptyState">
+                    <div class="empty-icon">📋</div>
+                    <h3>No Patients Found</h3>
+                    <p>Generate sample data to get started</p>
+                </div>
+            </section>
+
+            <!-- Patient Detail Modal -->
+            <div class="modal" id="patientModal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="modalPatientName">Patient Details</h2>
+                        <button class="modal-close" id="modalClose">&times;</button>
+                    </div>
+                    <div class="modal-body" id="modalBody">
+                        <!-- Patient details will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>OPOR Patient Record Demo System | One Person One Record Principle</p>
+            <p class="footer-subtitle">Demonstrating unified patient identity and clinical record management</p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

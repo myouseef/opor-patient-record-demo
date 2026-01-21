@@ -16,6 +16,7 @@
 ## 🎯 Project Overview
 
 This project demonstrates the **One Person, One Record (OPOR)** concept, a foundational principle used in Canadian healthcare systems to ensure:
+
 ⚠️ Important Notice This project uses fully fictional data generated for demonstration purposes only. No real patient data, identifiers, healthcare organizations, or facilities are used. This project is not intended for production use.
 
 - **Unique Patient Identity** across all healthcare encounters  

@@ -1,3 +1,8 @@
+![Healthcare](https://img.shields.io/badge/Domain-Healthcare-blue)
+![OPOR](https://img.shields.io/badge/Data%20Standard-OPOR-green)
+![Confidential](https://img.shields.io/badge/Project-Confidential-red)
+![Portfolio](https://img.shields.io/badge/Usage-Professional%20Portfolio-purple)
+
 # OPOR Patient Record Demo 🇨🇦
 
 > **One Person, One Record (OPOR)** – A demonstration project showcasing unified patient identity and clinical record management concepts aligned with Canadian healthcare digital health initiatives.
